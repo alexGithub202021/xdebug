@@ -1,0 +1,366 @@
+Log opened at 2021-02-25 22:13:15
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:13:16
+
+Log opened at 2021-02-25 22:14:06
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:14:06
+
+Log opened at 2021-02-25 22:14:07
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:14:08
+
+Log opened at 2021-02-25 22:17:36
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:17:36
+
+Log opened at 2021-02-25 22:20:57
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:20:57
+
+Log opened at 2021-02-25 22:21:03
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:21:03
+
+Log opened at 2021-02-25 22:21:04
+Log opened at 2021-02-25 22:21:04
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:21:04
+
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:21:04
+
+Log opened at 2021-02-25 22:22:03
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:22:04
+
+Log opened at 2021-02-25 22:22:05
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:22:05
+
+Log opened at 2021-02-25 22:22:06
+Log opened at 2021-02-25 22:22:06
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:22:06
+
+I: Connecting to configured address/port: 172.19.0.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 22:22:06
+
+Log opened at 2021-02-25 23:03:24
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 192.168.128.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 23:03:24
+
+Log opened at 2021-02-25 23:05:42
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 192.168.128.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 23:05:42
+
+Log opened at 2021-02-25 23:05:42
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 192.168.128.1:9000.
+E: Time-out connecting to client. :-(
+Log closed at 2021-02-25 23:05:42
+
+Log opened at 2021-02-25 23:08:48
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 192.168.128.1:9000.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/html/index.php" language="PHP" xdebug:language_version="7.0.33" protocol_version="1.0" appid="18" idekey="XDEBUG_ECLIPSE"><engine version="2.5.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2017 by Derick Rethans]]></copyright></init>
+
+<- breakpoint_list -i 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="1"></response>
+
+<- breakpoint_list -i 2
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="2"></response>
+
+<- breakpoint_set -i 3 -t line -f file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php -n 3
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="3" id="180001"></response>
+
+<- breakpoint_set -i 4 -t line -f file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php -n 2
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="4" id="180002"></response>
+
+<- breakpoint_set -i 5 -t line -f file:///home/alex/Desktop/prev%20backup/Docker/PHP/test_php_xdebug/index.php -n 4
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="5" id="180003"></response>
+
+<- breakpoint_list -i 6
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="6"><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="3" state="enabled" hit_count="0" hit_value="0" id="180001"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="2" state="enabled" hit_count="0" hit_value="0" id="180002"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/test_php_xdebug/index.php" lineno="4" state="enabled" hit_count="0" hit_value="0" id="180003"></breakpoint></response>
+
+<- breakpoint_list -i 7
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="7"><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="3" state="enabled" hit_count="0" hit_value="0" id="180001"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="2" state="enabled" hit_count="0" hit_value="0" id="180002"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/test_php_xdebug/index.php" lineno="4" state="enabled" hit_count="0" hit_value="0" id="180003"></breakpoint></response>
+
+<- breakpoint_set -i 8 -t exception -x *
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="8" id="180004"></response>
+
+<- run -i 9
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="9" status="stopping" reason="ok"></response>
+
+<- stop -i 10
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stop" transaction_id="10" status="stopped" reason="ok"></response>
+
+Log closed at 2021-02-25 23:08:48
+
+Log opened at 2021-02-25 23:08:49
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 192.168.128.1:9000.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/html/index.php" language="PHP" xdebug:language_version="7.0.33" protocol_version="1.0" appid="18" idekey="XDEBUG_ECLIPSE"><engine version="2.5.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2017 by Derick Rethans]]></copyright></init>
+
+<- breakpoint_list -i 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="1"></response>
+
+<- breakpoint_list -i 2
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="2"></response>
+
+<- breakpoint_set -i 3 -t line -f file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php -n 3
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="3" id="180005"></response>
+
+<- breakpoint_set -i 4 -t line -f file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php -n 2
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="4" id="180006"></response>
+
+<- breakpoint_set -i 5 -t line -f file:///home/alex/Desktop/prev%20backup/Docker/PHP/test_php_xdebug/index.php -n 4
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="5" id="180007"></response>
+
+<- breakpoint_list -i 6
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="6"><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="3" state="enabled" hit_count="0" hit_value="0" id="180005"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="2" state="enabled" hit_count="0" hit_value="0" id="180006"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/test_php_xdebug/index.php" lineno="4" state="enabled" hit_count="0" hit_value="0" id="180007"></breakpoint></response>
+
+<- breakpoint_list -i 7
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="7"><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="3" state="enabled" hit_count="0" hit_value="0" id="180005"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="2" state="enabled" hit_count="0" hit_value="0" id="180006"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/test_php_xdebug/index.php" lineno="4" state="enabled" hit_count="0" hit_value="0" id="180007"></breakpoint></response>
+
+<- breakpoint_set -i 8 -t exception -x *
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="8" id="180008"></response>
+
+<- run -i 9
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="9" status="stopping" reason="ok"></response>
+
+<- stop -i 10
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stop" transaction_id="10" status="stopped" reason="ok"></response>
+
+Log closed at 2021-02-25 23:08:49
+
+Log opened at 2021-02-25 23:08:50
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 192.168.128.1:9000.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/html/index.php" language="PHP" xdebug:language_version="7.0.33" protocol_version="1.0" appid="18" idekey="XDEBUG_ECLIPSE"><engine version="2.5.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2017 by Derick Rethans]]></copyright></init>
+
+<- breakpoint_list -i 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="1"></response>
+
+<- breakpoint_list -i 2
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="2"></response>
+
+<- breakpoint_set -i 3 -t line -f file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php -n 3
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="3" id="180009"></response>
+
+<- breakpoint_set -i 4 -t line -f file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php -n 2
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="4" id="180010"></response>
+
+<- breakpoint_set -i 5 -t line -f file:///home/alex/Desktop/prev%20backup/Docker/PHP/test_php_xdebug/index.php -n 4
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="5" id="180011"></response>
+
+<- breakpoint_list -i 6
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="6"><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/test_php_xdebug/index.php" lineno="4" state="enabled" hit_count="0" hit_value="0" id="180011"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="2" state="enabled" hit_count="0" hit_value="0" id="180010"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="3" state="enabled" hit_count="0" hit_value="0" id="180009"></breakpoint></response>
+
+<- breakpoint_list -i 7
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="7"><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/test_php_xdebug/index.php" lineno="4" state="enabled" hit_count="0" hit_value="0" id="180011"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="2" state="enabled" hit_count="0" hit_value="0" id="180010"></breakpoint><breakpoint type="line" filename="file:///home/alex/Desktop/prev%20backup/Docker/PHP/vsocde_debug/app/index.php" lineno="3" state="enabled" hit_count="0" hit_value="0" id="180009"></breakpoint></response>
+
+<- breakpoint_set -i 8 -t exception -x *
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="8" id="180012"></response>
+
+<- run -i 9
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="9" status="stopping" reason="ok"></response>
+
+<- stop -i 10
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stop" transaction_id="10" status="stopped" reason="ok"></response>
+
+Log closed at 2021-02-25 23:08:50
+
+Log opened at 2021-02-25 23:11:12
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 192.168.128.1:9000.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/html/index.php" language="PHP" xdebug:language_version="7.0.33" protocol_version="1.0" appid="19" idekey="XDEBUG_ECLIPSE"><engine version="2.5.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2017 by Derick Rethans]]></copyright></init>
+
+<- breakpoint_list -i 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="1"></response>
+
+<- breakpoint_set -i 2 -t line -f file:///var/www/html/index.php -n 3
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="2" id="190001"></response>
+
+<- breakpoint_list -i 3
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="3"><breakpoint type="line" filename="file:///var/www/html/index.php" lineno="3" state="enabled" hit_count="0" hit_value="0" id="190001"></breakpoint></response>
+
+<- breakpoint_list -i 4
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="4"><breakpoint type="line" filename="file:///var/www/html/index.php" lineno="3" state="enabled" hit_count="0" hit_value="0" id="190001"></breakpoint></response>
+
+<- breakpoint_set -i 5 -t exception -x *
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="5" id="190002"></response>
+
+<- run -i 6
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="6" status="break" reason="ok"><xdebug:message filename="file:///var/www/html/index.php" lineno="3"></xdebug:message></response>
+
+<- stack_get -i 7
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stack_get" transaction_id="7"><stack where="{main}" level="0" type="file" filename="file:///var/www/html/index.php" lineno="3"></stack></response>
+
+<- run -i 8
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="8" status="stopping" reason="ok"></response>
+
+<- stop -i 9
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stop" transaction_id="9" status="stopped" reason="ok"></response>
+
+Log closed at 2021-02-25 23:11:27
+
+Log opened at 2021-02-25 23:11:45
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 192.168.128.1:9000.
+W: Creating socket for '192.168.128.1:9000', poll success, but error: Operation now in progress (29).
+E: Could not connect to client. :-(
+Log closed at 2021-02-25 23:11:45
+
+Log opened at 2021-02-25 23:11:47
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 192.168.128.1:9000.
+W: Creating socket for '192.168.128.1:9000', poll success, but error: Operation now in progress (29).
+E: Could not connect to client. :-(
+Log closed at 2021-02-25 23:11:47
+
+Log opened at 2021-02-25 23:11:53
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 192.168.128.1:9000.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/html/index.php" language="PHP" xdebug:language_version="7.0.33" protocol_version="1.0" appid="21" idekey="XDEBUG_ECLIPSE"><engine version="2.5.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2017 by Derick Rethans]]></copyright></init>
+
+<- breakpoint_list -i 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="1"></response>
+
+<- breakpoint_set -i 2 -t line -f file:///var/www/html/index.php -n 2
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="2" id="210001"></response>
+
+<- breakpoint_list -i 3
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="3"><breakpoint type="line" filename="file:///var/www/html/index.php" lineno="2" state="enabled" hit_count="0" hit_value="0" id="210001"></breakpoint></response>
+
+<- breakpoint_list -i 4
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="4"><breakpoint type="line" filename="file:///var/www/html/index.php" lineno="2" state="enabled" hit_count="0" hit_value="0" id="210001"></breakpoint></response>
+
+<- breakpoint_set -i 5 -t exception -x *
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="5" id="210002"></response>
+
+<- run -i 6
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="6" status="break" reason="ok"><xdebug:message filename="file:///var/www/html/index.php" lineno="2"></xdebug:message></response>
+
+<- stack_get -i 7
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stack_get" transaction_id="7"><stack where="{main}" level="0" type="file" filename="file:///var/www/html/index.php" lineno="2"></stack></response>
+
+<- context_names -i 8 -d 0
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="context_names" transaction_id="8"><context name="Locals" id="0"></context><context name="Superglobals" id="1"></context><context name="User defined constants" id="2"></context></response>
+
+<- context_get -i 9 -d 0 -c 0
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="context_get" transaction_id="9" context="0"></response>
+
+<- step_over -i 10
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="step_over" transaction_id="10" status="break" reason="ok"><xdebug:message filename="file:///var/www/html/index.php" lineno="3"></xdebug:message></response>
+
+<- stack_get -i 11
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stack_get" transaction_id="11"><stack where="{main}" level="0" type="file" filename="file:///var/www/html/index.php" lineno="3"></stack></response>
+
+<- context_names -i 12 -d 0
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="context_names" transaction_id="12"><context name="Locals" id="0"></context><context name="Superglobals" id="1"></context><context name="User defined constants" id="2"></context></response>
+
+<- context_get -i 13 -d 0 -c 0
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="context_get" transaction_id="13" context="0"></response>
+
+<- step_over -i 14
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="step_over" transaction_id="14" status="stopping" reason="ok"></response>
+
+<- stop -i 15
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stop" transaction_id="15" status="stopped" reason="ok"></response>
+
+Log closed at 2021-02-25 23:12:02
+
+Log opened at 2021-03-16 10:26:24
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 172.29.0.1:9000.
+W: Creating socket for '172.29.0.1:9000', poll success, but error: Operation now in progress (29).
+E: Could not connect to client. :-(
+Log closed at 2021-03-16 10:26:24
+
+Log opened at 2021-03-16 10:26:47
+I: Checking remote connect back address.
+I: Checking header 'HTTP_X_FORWARDED_FOR'.
+I: Checking header 'REMOTE_ADDR'.
+I: Remote address found, connecting to 172.29.0.1:9000.
+I: Connected to client. :-)
+-> <init xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" fileuri="file:///var/www/html/index.php" language="PHP" xdebug:language_version="7.0.33" protocol_version="1.0" appid="19" idekey="XDEBUG_ECLIPSE"><engine version="2.5.5"><![CDATA[Xdebug]]></engine><author><![CDATA[Derick Rethans]]></author><url><![CDATA[http://xdebug.org]]></url><copyright><![CDATA[Copyright (c) 2002-2017 by Derick Rethans]]></copyright></init>
+
+<- breakpoint_list -i 1
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="1"></response>
+
+<- breakpoint_set -i 2 -t line -f file:///var/www/html/index.php -n 2
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="2" id="190001"></response>
+
+<- breakpoint_list -i 3
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="3"><breakpoint type="line" filename="file:///var/www/html/index.php" lineno="2" state="enabled" hit_count="0" hit_value="0" id="190001"></breakpoint></response>
+
+<- breakpoint_list -i 4
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_list" transaction_id="4"><breakpoint type="line" filename="file:///var/www/html/index.php" lineno="2" state="enabled" hit_count="0" hit_value="0" id="190001"></breakpoint></response>
+
+<- breakpoint_set -i 5 -t exception -x *
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="breakpoint_set" transaction_id="5" id="190002"></response>
+
+<- run -i 6
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="6" status="break" reason="ok"><xdebug:message filename="file:///var/www/html/index.php" lineno="2"></xdebug:message></response>
+
+<- stack_get -i 7
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stack_get" transaction_id="7"><stack where="{main}" level="0" type="file" filename="file:///var/www/html/index.php" lineno="2"></stack></response>
+
+<- context_names -i 8 -d 0
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="context_names" transaction_id="8"><context name="Locals" id="0"></context><context name="Superglobals" id="1"></context><context name="User defined constants" id="2"></context></response>
+
+<- context_get -i 9 -d 0 -c 0
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="context_get" transaction_id="9" context="0"></response>
+
+<- run -i 10
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="run" transaction_id="10" status="stopping" reason="ok"></response>
+
+<- stop -i 11
+-> <response xmlns="urn:debugger_protocol_v1" xmlns:xdebug="http://xdebug.org/dbgp/xdebug" command="stop" transaction_id="11" status="stopped" reason="ok"></response>
+
+Log closed at 2021-03-16 10:26:58
+

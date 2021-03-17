@@ -1,0 +1,15 @@
+version: "3.2"
+
+services:
+  php-debug:
+    container_name: vscode_debug
+    build:
+      context: "./php/"
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/var/www/html
+      - ./php/conf/php.ini:/usr/local/etc/php/php.ini
+      # - ./php/conf/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+    # environment:
+    #   XDEBUG_CONFIG: xdebug.client_host=host.docker.internal xdebug.client_port=9000 remote_enable=1
